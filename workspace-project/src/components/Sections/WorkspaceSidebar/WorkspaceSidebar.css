@@ -1,0 +1,169 @@
+.sidebar {
+  width: 280px;
+  background: var(--color-bg);
+  border-right: 1px solid var(--color-border);
+  padding: 30px 0;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+.sidebar__container {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sidebar__team-card {
+  background: linear-gradient(135deg, #eef2ff, #f5f3ff);
+  border: 1px solid #e0e7ff;
+  border-radius: var(--radius-md);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar__team-label {
+  font-family: "Montserrat";
+  font-size: 0.75em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+  margin-bottom: 4px;
+}
+
+.sidebar__team-name {
+  font-family: "Montserrat";
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--color-text-main);
+}
+
+.sidebar__team-meta {
+  font-family: "Montserrat";
+  font-size: 0.85em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.sidebar__team-avatars {
+  display: flex;
+  margin-top: 12px;
+}
+
+.sidebar__team-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--color-bg);
+  object-fit: cover;
+  margin-left: -8px;
+}
+
+.sidebar__team-avatar:first-child {
+  margin-left: 0;
+}
+
+.sidebar__team-avatar--more {
+  background: var(--color-bg-hover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-size: 0.8em;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.sidebar__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sidebar__menu-label {
+  font-family: "Montserrat";
+  font-size: 0.75em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-third);
+  padding: 0 12px;
+  margin-bottom: 8px;
+}
+
+.sidebar__menu-item {
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  font-family: "Montserrat";
+  font-size: 0.95em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+  text-align: left;
+  transition: background var(--transition-base), color var(--transition-base);
+}
+
+.sidebar__menu-item:hover {
+  background: var(--color-bg-hover);
+  color: var(--color-text-main);
+}
+
+.sidebar__menu-item--active {
+  background: var(--color-bg-active);
+  color: var(--color-text-accent);
+  font-weight: 500;
+}
+
+.sidebar__help-card {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  border-radius: var(--radius-md);
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar__help-title {
+  font-family: "Montserrat";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.sidebar__help-text {
+  font-family: "Montserrat";
+  font-size: 0.85em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 8px;
+}
+
+.sidebar__help-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  font-family: "Montserrat";
+  font-size: 0.85em;
+  font-weight: 500;
+  color: #ffffff;
+  transition: background var(--transition-base);
+}
+
+.sidebar__help-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+}

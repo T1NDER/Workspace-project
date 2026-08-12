@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  padding: 100px 0;
+  background: var(--color-bg);
+  border-top: 1px solid var(--color-border);
+}
+
+.footer__container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__title {
+  font-family: "Roboto";
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--color-text-main);
+}
+
+.footer__address,
+.footer__copyright {
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
