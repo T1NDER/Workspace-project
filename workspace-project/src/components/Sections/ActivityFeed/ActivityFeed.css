@@ -15,7 +15,7 @@
 .activity-feed__list {
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -34,7 +34,7 @@
 .activity-item__avatar {
   width: 44px;
   height: 44px;
-  border-radius: var(--radius-sm);
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;

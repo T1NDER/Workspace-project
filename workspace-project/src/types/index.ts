@@ -7,7 +7,6 @@ export interface Project {
   deadline: string;
   description: string;
   image: string;  
-  color: string;  
 }
 
 export interface TeamMember {

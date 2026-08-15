@@ -27,7 +27,6 @@ function ProjectCard({ project }: ProjectCardProps) {
     <article className="project-card">
       <div
         className="project-card__cover"
-        style={{ background: project.color }}
       >
         <img
           src={project.image}

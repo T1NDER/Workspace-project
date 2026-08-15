@@ -16,8 +16,7 @@ export const projects: Project[] = [
     team: 4, 
     deadline: "15 авг", 
     description: "Обновление UI и UX главной страницы сайта",
-    image: brushIcon,
-    color: "from-indigo-500 to-purple-500" 
+    image: brushIcon
   },
   { 
     id: 2, 
@@ -27,8 +26,7 @@ export const projects: Project[] = [
     team: 6, 
     deadline: "30 авг", 
     description: "Вторая версия мобильного приложения",
-    image: phoneIcon,
-    color: "from-orange-500 to-pink-500" 
+    image: phoneIcon
   },
   { 
     id: 3, 
@@ -38,8 +36,7 @@ export const projects: Project[] = [
     team: 3, 
     deadline: "20 авг", 
     description: "Система управления клиентами",
-    image: databaseIcon,
-    color: "from-emerald-500 to-teal-500" 
+    image: databaseIcon
   },
   { 
     id: 4, 
@@ -49,8 +46,7 @@ export const projects: Project[] = [
     team: 5, 
     deadline: "10 сен", 
     description: "Единая точка входа для микросервисов",
-    image: serverIcon,
-    color: "from-indigo-500 to-purple-500" 
+    image: serverIcon
   },
   { 
     id: 5, 
@@ -60,8 +56,7 @@ export const projects: Project[] = [
     team: 2, 
     deadline: "25 авг", 
     description: "Панель с ключевыми метриками продукта",
-    image: scheduleIcon,
-    color: "from-orange-500 to-pink-500" 
+    image: scheduleIcon
   },
   { 
     id: 6, 
@@ -71,8 +66,7 @@ export const projects: Project[] = [
     team: 4, 
     deadline: "5 сен", 
     description: "Интеграция с несколькими провайдерами",
-    image: serverIcon, // используем serverIcon как заглушку
-    color: "from-emerald-500 to-teal-500" 
+    image: serverIcon
   },
   { 
     id: 7, 
@@ -82,8 +76,7 @@ export const projects: Project[] = [
     team: 2, 
     deadline: "18 авг", 
     description: "Страница для привлечения партнёров",
-    image: brushIcon, // используем brushIcon как заглушку
-    color: "from-indigo-500 to-purple-500" 
+    image: brushIcon
   },
   { 
     id: 8, 
@@ -93,8 +86,7 @@ export const projects: Project[] = [
     team: 3, 
     deadline: "1 окт", 
     description: "Внедрение AI-ассистента в продукт",
-    image: serverIcon, // используем serverIcon как заглушку
-    color: "from-orange-500 to-pink-500" 
+    image: serverIcon
   },
   { 
     id: 9, 
@@ -104,8 +96,7 @@ export const projects: Project[] = [
     team: 2, 
     deadline: "22 авг", 
     description: "Переписывание модуля аутентификации",
-    image: databaseIcon, // используем databaseIcon как заглушку
-    color: "from-emerald-500 to-teal-500" 
+    image: databaseIcon 
   },
   { 
     id: 10, 
@@ -115,7 +106,6 @@ export const projects: Project[] = [
     team: 1, 
     deadline: "28 авг", 
     description: "Публичная документация для разработчиков",
-    image: serverIcon, // используем serverIcon как заглушку
-    color: "from-indigo-500 to-purple-500" 
+    image: serverIcon
   },
 ];

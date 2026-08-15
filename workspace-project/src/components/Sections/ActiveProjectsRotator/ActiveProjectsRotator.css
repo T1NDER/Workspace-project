@@ -6,7 +6,7 @@
 .rotator__container {
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: 10px;
   padding: 32px;
   display: flex;
   flex-direction: column;
@@ -43,9 +43,9 @@
 }
 
 .rotator__toggle-btn {
-  background: var(--color-bg-hover);
-  color: var(--color-text-main);
-  border-radius: var(--radius-sm);
+  background: var(--color-bg-gradient);
+  color: var(--color-text-fourth);
+  border-radius: 6px;
   padding: 10px 18px;
   font-family: "Montserrat";
   font-size: 0.9em;
@@ -65,8 +65,8 @@
 }
 
 .rotator__card {
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
-  border-radius: var(--radius-md);
+  background: var(--color-bg-gradient);
+  border-radius: 10px;
   padding: 28px;
   display: flex;
   flex-direction: column;
@@ -91,7 +91,7 @@
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   padding: 4px 12px;
-  border-radius: var(--radius-sm);
+  border-radius: 6px;
   font-family: "Montserrat";
   font-size: 0.8em;
   font-weight: 500;

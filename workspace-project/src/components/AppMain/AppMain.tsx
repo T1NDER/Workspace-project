@@ -6,7 +6,7 @@ import { ProjectsSection } from "@componentsSection/ProjectsSection/ProjectsSect
 import { TasksSection } from "@componentsSection/TasksSection/TasksSection";
 import { TeamMembersSection } from "@componentsSection/TeamMembersSection/TeamMembersSection";
 import { ActivityFeed } from "@componentsSection/ActivityFeed/ActivityFeed";
-import "./AppMain.css";
+import "@components/AppMain/AppMain.css";
 
 export function AppMain() {
   const [activeSection, setActiveSection] = useState("overview");
