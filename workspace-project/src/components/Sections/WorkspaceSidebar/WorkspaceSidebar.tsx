@@ -34,12 +34,9 @@ export function WorkspaceSidebar({ activeSection, setActiveSection }: Props) {
         <nav className="sidebar__menu">
           <div className="sidebar__menu-label">Меню</div>
           {menuItems.map((item) => (
-            <button
-              key={item.id}
-              onClick={() => setActiveSection(item.id)}
-              className={`sidebar__menu-item ${
-                activeSection === item.id ? "sidebar__menu-item--active" : ""
-              }`}
+            <button key={item.id} onClick={() => setActiveSection(item.id)}
+            className={`sidebar__menu-item ${activeSection === item.id ? 
+            "sidebar__menu-item--active" : ""}`}
             >
               {item.label}
             </button>

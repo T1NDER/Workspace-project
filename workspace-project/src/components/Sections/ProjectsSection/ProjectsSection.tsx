@@ -25,14 +25,8 @@ export function ProjectsSection() {
 function ProjectCard({ project }: ProjectCardProps) {
   return (
     <article className="project-card">
-      <div
-        className="project-card__cover"
-      >
-        <img
-          src={project.image}
-          alt={project.name}
-          className="project-card__icon"
-        />
+      <div className="project-card__cover">
+        <img src={project.image} alt={project.name} className="project-card__icon"/>
       </div>
 
       <h3 className="project-card__title">{project.name}</h3>
@@ -40,12 +34,11 @@ function ProjectCard({ project }: ProjectCardProps) {
         <span className="project-card__meta-item">{project.team} уч.</span>
         <span className="project-card__meta-item">{project.deadline}</span>
       </div>
+
       <div className="project-card__progress-track">
-        <div
-          className="project-card__progress-fill"
-          style={{ width: `${project.progress}%` }}
-        ></div>
+        <div className="project-card__progress-fill" style={{ width: `${project.progress}%` }}></div>
       </div>
+      
       <div className="project-card__progress-text">
         {project.progress}% завершено
       </div>

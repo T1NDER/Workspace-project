@@ -27,6 +27,7 @@ export function TasksSection() {
         <h2 className="tasks-section__title">Задачи команды</h2>
         <button className="tasks-section__btn">+ Новая задача</button>
       </div>
+      
       <div className="tasks-section__list">
         {tasks.map((t) => (
           <TaskItem key={t.id} task={t} />

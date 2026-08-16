@@ -14,17 +14,16 @@ export function AppMain() {
   return (
     <main className="main">
       <div className="main__layout">
-        <WorkspaceSidebar
-          activeSection={activeSection}
-          setActiveSection={setActiveSection}
-        />
+        <WorkspaceSidebar activeSection={activeSection} setActiveSection={setActiveSection}/>
 
         <section className="main__content">
           <div className="main__content-header">
+            
             <div className="main__content-header-left">
               <h1 className="main__title">Рабочее пространство команды</h1>
               <p className="main__subtitle">Среда, 12 августа 2026</p>
             </div>
+            
             <button className="main__new-btn">+ Новый проект</button>
           </div>
 
